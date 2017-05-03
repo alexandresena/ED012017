@@ -56,7 +56,7 @@ int main (void) {
 	
 	printf ("Entre com o número de valores.\t");
 	scanf ("%d", &n);
-	float *x = (float*) malloc (n *sizeof(float)); /* Alocação dinâmica do vetor x */
+	float *x = (float*) malloc (n * sizeof(float)); /* Alocação dinâmica do vetor x */
 	if (x==NULL) {
 		
 		printf ("Memória insuficiente.\n");
